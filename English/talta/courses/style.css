@@ -1,0 +1,140 @@
+.users{
+    height: max-content;
+    text-align: center;
+}
+.imgs{
+    width: 7em;
+    height: 7em;
+}
+.white{
+    color: white;
+}
+body{
+    background-color:#111111 !important;
+    color: GOLD!important;
+}
+.row{
+    width: 100%;
+}
+section{
+    padding-top: 5%;
+    position: relative;
+}
+#navbar{
+    height: 10%;
+    background-color: #006b7f;
+    border-bottom:2px solid #E9C46A ;
+
+    
+    /* display: none; */
+}
+.site-icon{
+    height: 4em;
+    width: 7em !important;
+
+    margin-left: 10%;
+}
+.navLinks{
+    margin-left: 30%;
+}
+.navLinks a{
+    margin-top: 1em;
+    color: white;
+    text-decoration: none;
+    height: 4em;
+    width: 10em;
+    font-size: larger;
+    border: 0;
+}
+.NavColor{
+    background-color: #191919;
+}
+.site-icon{
+    width: 5em;
+    height: 3em;
+}
+.gold{
+    color: gold!important;
+}
+.dropdown-toggle:hover{
+    color: rgba(255, 217, 0, 0.767);
+}
+#navbarSupportedContent{
+    padding-left: 45%;
+    font-size:larger;} 
+@media screen and (max-width:330px) {
+    body{
+        padding-left: 0px;
+    }    
+    #navbarSupportedContent{
+        padding-left: 20%;
+        font-size:medium;} 
+    #navbar{
+        width: 325px;
+    }
+    #footer{
+        width: 325px;
+    }
+}
+@media screen and (max-width:391px) {
+    body{
+        padding-left: 0px;
+    }    
+    #navbarSupportedContent{
+        padding-left: 20%;
+        font-size:medium;} 
+    #navbar{
+        width: 390px;
+    }
+    #footer{
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width:767px) {
+    body{
+        padding-left: 2%;
+    }    
+    #navbarSupportedContent{
+        padding-left: 20%;
+        font-size:medium;} 
+    #navbar{
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:820px) {
+    #navbar{
+        padding: 0;
+    }
+    #navbarSupportedContent{
+        padding-left:35%;
+        font-size: larger;}
+    #footer{
+        width: 820px;
+    }
+}
+@media screen and (max-width:1025px) {
+    #navbar{
+        padding: 0;
+    }
+    #navbarSupportedContent{
+        padding-left:35%;
+        font-size: larger;}
+    #footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1300px) {
+    #navbar{
+        padding: 0;
+    }
+    #navbarSupportedContent{
+        padding-left:35%;
+        font-size: larger;}
+    .footer{
+        width: 1290px;
+    }
+}
